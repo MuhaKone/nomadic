@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nomade Village — Discover the Soul of the Sahel</title>
+<meta name="description" content="Immersions authentiques dans les communautés nomades d'Afrique de l'Ouest. Découvrez 24 villages partenaires en Guinée et réservez votre séjour éthique.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="image" href="https://images.unsplash.com/photo-1516912481808-3406841bd33c?w=1600&auto=format&fit=crop" fetchpriority="high">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Open+Sans:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ===== SKIP LINK ===== -->
+<a class="skip-link" href="#main-content">Passer au contenu principal</a>
+
+<!-- ===== HEADER ===== -->
+<header id="header">
+  <nav class="container">
+    <a href="#" class="nav-logo">
+      ⟡ Nomade<span>Village</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#about">À Propos</a></li>
+      <li><a href="#experiences">Expériences</a></li>
+      <li><a href="#gallery">Galerie</a></li>
+      <li><a href="#villages">Villages</a></li>
+      <li><a href="#contact" class="btn-nav">Réserver</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<!-- Mobile Nav -->
+<nav class="mobile-nav" id="mobile-nav" aria-label="Navigation mobile">
+  <a href="#about" class="mobile-link">À Propos</a>
+  <a href="#experiences" class="mobile-link">Expériences</a>
+  <a href="#gallery" class="mobile-link">Galerie</a>
+  <a href="#villages" class="mobile-link">Villages</a>
+  <a href="#contact" class="mobile-link">Réserver</a>
+</nav>
+
+<main id="main-content">
+
+<!-- ===== HERO ===== -->
+<section id="hero">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-content">
+    <span class="hero-eyebrow">✦ Sahel · Guinée · Afrique de l'Ouest</span>
+    <h1 class="hero-title">Discover the Soul<br>of <em>Nomadic</em> Life</h1>
+    <p class="hero-desc">Immergez-vous dans la vie authentique des villages nomades — traditions ancestrales, paysages infinis, hospitalité sans frontières.</p>
+    <div class="hero-cta">
+      <a href="#experiences" class="btn-primary">Explorer les séjours →</a>
+      <a href="#gallery" class="btn-outline">▶ Voir la galerie</a>
+    </div>
+  </div>
+  <div class="hero-scroll" onclick="document.getElementById('stats').scrollIntoView({behavior:'smooth'})">
+    <span class="scroll-line"></span>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ===== STATS BAR ===== -->
+<section class="stats-bar" id="stats" aria-label="Chiffres clés">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item">
+        <span class="stat-number" data-target="24">0</span>
+        <span class="stat-label">Villages partenaires</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="3800">0</span>
+        <span class="stat-label">Voyageurs accueillis</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="12">0</span>
+        <span class="stat-label">Années d'expérience</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number" data-target="98">0</span>
+        <span class="stat-label">% de satisfaction</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section id="about" class="section">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-image-wrap reveal">
+        <img src="https://images.unsplash.com/photo-1504198458649-3128b932f49e?w=800&auto=format&fit=crop" alt="Village nomade en Afrique de l'Ouest" loading="lazy" width="800" height="500">
+        <div class="about-badge">
+          <strong>12</strong>
+          ans d'immersion
+        </div>
+      </div>
+      <div class="about-text-col reveal reveal-delay-2">
+        <span class="section-label">Notre mission</span>
+        <h2 class="section-title">Tisser des liens entre<br>les cultures du monde</h2>
+        <div class="divider"></div>
+        <p class="about-text">Nomade Village est né d'une conviction simple : les échanges humains authentiques sont la forme de voyage la plus transformatrice. Nous connectons les voyageurs à des communautés nomades et semi-nomades qui perpétuent des traditions millénaires.</p>
+        <p class="about-text">Chaque séjour est conçu avec les communautés hôtes, garantissant un tourisme éthique, économiquement bénéfique et culturellement respectueux.</p>
+        <div class="feature-list">
+          <div class="feature-item"><span class="feature-icon">✓</span><span>Tourisme communautaire — 80% des revenus restent dans le village</span></div>
+          <div class="feature-item"><span class="feature-icon">✓</span><span>Guides natifs multilingues (Peul, Mandingue, Français, Anglais)</span></div>
+          <div class="feature-item"><span class="feature-icon">✓</span><span>Immersions certifiées par l'UNESCO — patrimoine culturel vivant</span></div>
+          <div class="feature-item"><span class="feature-icon">✓</span><span>Groupes limités à 8 personnes pour une expérience intime</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EXPERIENCES ===== -->
+<section id="experiences" class="section section--alt">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">Ce que nous proposons</span>
+      <h2 class="section-title">Expériences uniques</h2>
+      <p class="text-muted">Des séjours conçus pour une immersion totale, du désert au delta.</p>
+    </div>
+    <div class="filter-bar reveal" role="group" aria-label="Filtrer par type d'expérience">
+      <button class="filter-btn active" data-filter="all">Tout voir</button>
+      <button class="filter-btn" data-filter="desert">Désert</button>
+      <button class="filter-btn" data-filter="foret">Forêt</button>
+      <button class="filter-btn" data-filter="riviere">Rivière</button>
+      <button class="filter-btn" data-filter="montagne">Montagne</button>
+    </div>
+    <div class="experiences-grid" id="exp-grid" aria-live="polite" aria-atomic="false">
+      <!-- Cards inserted by JS -->
+    </div>
+  </div>
+</section>
+
+<!-- ===== GALLERY ===== -->
+<section id="gallery" class="section">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">Visuels</span>
+      <h2 class="section-title">La vie en images</h2>
+    </div>
+    <div class="gallery-grid">
+      <div class="gal-item gal-item--1 reveal">
+        <img src="https://images.unsplash.com/photo-1489493585363-d69421e0edd3?w=900&auto=format&fit=crop" alt="Village nomade au coucher du soleil" loading="lazy" width="900" height="600">
+        <div class="gal-overlay"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="18" stroke="white" stroke-width="1.5"/><path d="M14 20h12M20 14v12" stroke="white" stroke-width="2" stroke-linecap="round"/></svg></div>
+      </div>
+      <div class="gal-item gal-item--2 reveal reveal-delay-1">
+        <img src="https://images.unsplash.com/photo-1523805009345-7448845a9e53?w=600&auto=format&fit=crop" alt="Artisanat local traditionnel" loading="lazy" width="600" height="600">
+        <div class="gal-overlay"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="18" stroke="white" stroke-width="1.5"/><path d="M14 20h12M20 14v12" stroke="white" stroke-width="2" stroke-linecap="round"/></svg></div>
+      </div>
+      <div class="gal-item gal-item--3 reveal reveal-delay-1">
+        <img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?w=600&auto=format&fit=crop" alt="Paysage sahélien immense" loading="lazy" width="600" height="400">
+        <div class="gal-overlay"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="18" stroke="white" stroke-width="1.5"/><path d="M14 20h12M20 14v12" stroke="white" stroke-width="2" stroke-linecap="round"/></svg></div>
+      </div>
+      <div class="gal-item gal-item--4 reveal reveal-delay-2">
+        <img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=600&auto=format&fit=crop" alt="Femmes du village en tenue traditionnelle" loading="lazy" width="600" height="400">
+        <div class="gal-overlay"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="18" stroke="white" stroke-width="1.5"/><path d="M14 20h12M20 14v12" stroke="white" stroke-width="2" stroke-linecap="round"/></svg></div>
+      </div>
+      <div class="gal-item gal-item--5 reveal reveal-delay-3">
+        <img src="https://images.unsplash.com/photo-1542223533-bfa1cbd335b4?w=600&auto=format&fit=crop" alt="Nuit sous les étoiles au désert" loading="lazy" width="600" height="400">
+        <div class="gal-overlay"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="18" stroke="white" stroke-width="1.5"/><path d="M14 20h12M20 14v12" stroke="white" stroke-width="2" stroke-linecap="round"/></svg></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TESTIMONIALS ===== -->
+<section id="testimonials" class="section section--alt">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">Ils témoignent</span>
+      <h2 class="section-title">Voix de voyageurs</h2>
+    </div>
+    <div class="testimonial-slider reveal">
+      <div class="testimonial-track" id="test-track" aria-live="polite" aria-atomic="true">
+        <div class="testimonial-card">
+          <span class="quote-mark">"</span>
+          <p class="testimonial-text">Une semaine dans le village de Dinguiraye a changé ma façon de voir le monde. La générosité des habitants, les nuits étoilées, les danses au coucher du soleil — c'est le voyage de ma vie.</p>
+          <p class="testimonial-author">Amélie Leconte</p>
+          <p class="testimonial-role">Voyageuse solo — Paris, France</p>
+        </div>
+        <div class="testimonial-card">
+          <span class="quote-mark">"</span>
+          <p class="testimonial-text">As a researcher in anthropology, I've visited many communities, but Nomade Village provides something rare: genuine exchange, not spectacle. The hosts become friends. I've returned three times already.</p>
+          <p class="testimonial-author">Dr. James Okafor</p>
+          <p class="testimonial-role">Chercheur — University of Lagos</p>
+        </div>
+        <div class="testimonial-card">
+          <span class="quote-mark">"</span>
+          <p class="testimonial-text">Mon fils de 14 ans et moi avons vécu dix jours inoubliables. Apprendre à construire une case, à traire les vaches, à écouter les conteurs — une éducation que l'école ne peut pas donner.</p>
+          <p class="testimonial-author">Fatou Diallo</p>
+          <p class="testimonial-role">Mère de famille — Dakar, Sénégal</p>
+        </div>
+      </div>
+      <div class="slider-dots" id="test-dots" role="group" aria-label="Navigation des témoignages">
+        <button class="dot active" data-idx="0" aria-label="Témoignage 1" aria-current="true"></button>
+        <button class="dot" data-idx="1" aria-label="Témoignage 2"></button>
+        <button class="dot" data-idx="2" aria-label="Témoignage 3"></button>
+      </div>
+      <div class="slider-arrows">
+        <button class="arrow-btn" id="prev-btn" aria-label="Témoignage précédent">←</button>
+        <button class="arrow-btn" id="next-btn" aria-label="Témoignage suivant">→</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== VILLAGES MAP ===== -->
+<section id="villages" class="section">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">Nos destinations</span>
+      <h2 class="section-title">Villages partenaires</h2>
+      <p class="text-muted">24 communautés dans 8 pays d'Afrique de l'Ouest, chacune unique.</p>
+    </div>
+    <div class="map-placeholder reveal">
+      <svg width="100%" height="100%" viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg" aria-label="Carte schématique de l'Afrique de l'Ouest avec les villages partenaires" role="img">
+        <title>Carte des villages partenaires en Afrique de l'Ouest</title>
+        <rect width="900" height="420" fill="#E8F6FA" rx="12"/>
+        <path d="M80,180 Q120,120 200,100 Q280,80 360,90 Q440,95 500,80 Q560,70 620,100 Q700,130 740,180 Q760,220 750,280 Q740,340 700,370 Q660,400 600,390 Q540,380 480,390 Q420,398 360,390 Q300,380 240,360 Q180,340 140,300 Q100,260 80,220 Z" fill="#C8E8D0" opacity="0.5"/>
+        <circle cx="280" cy="200" r="8" fill="#A5856E" opacity="0.9"/>
+        <circle cx="380" cy="170" r="6" fill="#A5856E" opacity="0.7"/>
+        <circle cx="450" cy="220" r="10" fill="#A5856E"/>
+        <circle cx="320" cy="260" r="7" fill="#A5856E" opacity="0.8"/>
+        <circle cx="520" cy="190" r="6" fill="#A5856E" opacity="0.6"/>
+        <circle cx="580" cy="240" r="8" fill="#A5856E" opacity="0.7"/>
+        <circle cx="200" cy="230" r="5" fill="#A5856E" opacity="0.6"/>
+        <circle cx="620" cy="300" r="7" fill="#A5856E" opacity="0.8"/>
+        <text x="288" y="196" font-family="Montserrat, sans-serif" font-size="11" font-weight="600" fill="#1C1916">Dinguiraye</text>
+        <text x="388" y="165" font-family="Montserrat, sans-serif" font-size="10" fill="#1C1916">Kankan</text>
+        <text x="460" y="216" font-family="Montserrat, sans-serif" font-size="11" font-weight="600" fill="#1C1916">Fouta Djalon</text>
+        <text x="328" y="278" font-family="Montserrat, sans-serif" font-size="10" fill="#1C1916">Mamou</text>
+        <text x="530" y="186" font-family="Montserrat, sans-serif" font-size="10" fill="#1C1916">Labé</text>
+        <text x="590" y="256" font-family="Montserrat, sans-serif" font-size="10" fill="#1C1916">Faranah</text>
+        <text x="440" y="320" font-family="Montserrat, sans-serif" font-size="11" fill="#5BAEC0">Guinée</text>
+      </svg>
+    </div>
+    <div class="map-villages" id="villages-grid">
+      <!-- Inserted by JS -->
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT / BOOKING ===== -->
+<section id="contact" class="section section--dark">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <span class="section-label section-label--light">Réservation</span>
+        <h2>Commencez<br>votre aventure</h2>
+        <p>Notre équipe vous répondra sous 24h pour personnaliser votre séjour selon vos souhaits et votre calendrier.</p>
+        <div class="contact-detail">
+          <span class="contact-icon" aria-hidden="true">✉</span>
+          <div><div class="contact-label">Email</div><div class="contact-val">bonjour@nomadevillage.com</div></div>
+        </div>
+        <div class="contact-detail">
+          <span class="contact-icon" aria-hidden="true">☎</span>
+          <div><div class="contact-label">Téléphone</div><div class="contact-val">+224 620 00 00 00</div></div>
+        </div>
+        <div class="contact-detail">
+          <span class="contact-icon" aria-hidden="true">⊙</span>
+          <div><div class="contact-label">Bureau</div><div class="contact-val">Conakry, République de Guinée</div></div>
+        </div>
+      </div>
+      <div class="reveal reveal-delay-2">
+        <div class="booking-form" id="booking-form-wrap">
+          <h3>Formulaire de réservation</h3>
+          <p class="subtitle">Remplissez le formulaire et nous vous contacterons</p>
+          <form id="booking-form" novalidate>
+            <div class="form-row">
+              <div class="form-group" id="fg-prenom">
+                <label for="prenom">Prénom</label>
+                <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" autocomplete="given-name">
+                <span class="form-error" role="alert">Ce champ est requis</span>
+              </div>
+              <div class="form-group" id="fg-nom">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom" placeholder="Votre nom" autocomplete="family-name">
+                <span class="form-error" role="alert">Ce champ est requis</span>
+              </div>
+            </div>
+            <div class="form-group" id="fg-email">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="votre@email.com" autocomplete="email">
+              <span class="form-error" role="alert">Email invalide</span>
+            </div>
+            <div class="form-row">
+              <div class="form-group" id="fg-experience">
+                <label for="experience">Expérience souhaitée</label>
+                <select id="experience" name="experience">
+                  <option value="">Choisir…</option>
+                  <option>Nomade du Désert</option>
+                  <option>Forêt Sacrée</option>
+                  <option>Pêcheurs du Delta</option>
+                  <option>Bergers du Fouta</option>
+                  <option>Artisans de Kankan</option>
+                </select>
+                <span class="form-error" role="alert">Veuillez choisir une expérience</span>
+              </div>
+              <div class="form-group">
+                <label for="voyageurs">Nombre de voyageurs</label>
+                <select id="voyageurs" name="voyageurs">
+                  <option>1 personne</option>
+                  <option>2 personnes</option>
+                  <option>3-4 personnes</option>
+                  <option>5-8 personnes</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group" id="fg-date">
+              <label for="date">Date souhaitée</label>
+              <input type="date" id="date" name="date">
+              <span class="form-error" role="alert">Veuillez choisir une date</span>
+            </div>
+            <div class="form-group">
+              <label for="message">Message (optionnel)</label>
+              <textarea id="message" name="message" placeholder="Vos souhaits particuliers, questions…"></textarea>
+            </div>
+            <button type="submit" class="btn-submit">
+              Envoyer ma demande →
+            </button>
+          </form>
+          <div class="success-msg" id="success-msg" role="status">
+            <div class="check" aria-hidden="true">✅</div>
+            <h4>Demande envoyée !</h4>
+            <p>Nous vous contacterons dans les 24h pour confirmer votre séjour. Préparez-vous à voyager 🌍</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">⟡ Nomade<span>Village</span></div>
+        <p>Immersions authentiques dans les communautés nomades d'Afrique de l'Ouest depuis 2012.</p>
+        <div class="social-links">
+          <a href="#" class="social-btn" aria-label="Instagram">📷</a>
+          <a href="#" class="social-btn" aria-label="Facebook">f</a>
+          <a href="#" class="social-btn" aria-label="YouTube">▶</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Explorer</h4>
+        <a href="#about">Notre mission</a>
+        <a href="#experiences">Expériences</a>
+        <a href="#gallery">Galerie</a>
+        <a href="#villages">Villages</a>
+      </div>
+      <div class="footer-col">
+        <h4>Informations</h4>
+        <a href="#">FAQ voyageurs</a>
+        <a href="#">Conditions générales</a>
+        <a href="#">Politique de confidentialité</a>
+        <a href="#">Tourisme responsable</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="mailto:bonjour@nomadevillage.com">bonjour@nomadevillage.com</a>
+        <a href="tel:+224620000000">+224 620 00 00 00</a>
+        <a href="#">Conakry, Guinée</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Nomade Village. Tous droits réservés.</span>
+      <span>Fait avec ♥ en Guinée · Batch 2026 · Projet 1</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== MODAL ===== -->
+<div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+  <div class="modal" id="modal">
+    <div class="modal-header">
+      <img id="modal-img" src="" alt="" class="modal-img">
+      <button class="modal-close" id="modal-close" aria-label="Fermer la fenêtre">✕</button>
+    </div>
+    <div class="modal-body">
+      <span class="modal-tag" id="modal-tag"></span>
+      <h3 class="modal-title" id="modal-title"></h3>
+      <p class="modal-desc" id="modal-desc"></p>
+      <div class="modal-details" id="modal-details"></div>
+      <div class="modal-footer">
+        <div><div class="modal-price" id="modal-price"></div></div>
+        <a href="#contact" class="btn-primary" id="modal-book" onclick="document.getElementById('modal-overlay').classList.remove('open');document.body.style.overflow=''">Réserver ce séjour →</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
