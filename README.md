@@ -1,6 +1,6 @@
 # NOMADIC
 
-> Modern frontend application built with HTML, CSS, and Vanilla JavaScript.
+> Modern frontend application built with HTML, CSS, and JavaScript.
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -11,7 +11,7 @@
 
 # 📖 Description
 
-**Nomadic** is a modern frontend application developed entirely with **HTML**, **CSS**, and **Vanilla JavaScript**, without using any frontend framework.
+**Nomadic** is a modern frontend application developed entirely with **HTML**, **CSS**, and **JavaScript**, without using any frontend framework.
 
 The project focuses on:
 
