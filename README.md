@@ -53,23 +53,6 @@ The project focuses on:
 nomadic/
 │
 ├── index.html
-├── about.html
-├── contact.html
-│
-├── assets/
-│   ├── css/
-│   │   └── style.css
-│   │
-│   ├── js/
-│   │   └── app.js
-│   │
-│   ├── images/
-│   │   └── ...
-│   │
-│   └── icons/
-│
-├── components/
-│
-├── pages/
-│
-└── README.md
+├── style.css
+├── main.js
+
